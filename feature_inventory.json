@@ -1,0 +1,425 @@
+{
+  "columns": [
+    {
+      "index": 0,
+      "name": "count_supported"
+    },
+    {
+      "index": 1,
+      "name": "count_contradicted"
+    },
+    {
+      "index": 2,
+      "name": "count_unknown"
+    },
+    {
+      "index": 3,
+      "name": "ratio_supported"
+    },
+    {
+      "index": 4,
+      "name": "ratio_contradicted"
+    },
+    {
+      "index": 5,
+      "name": "ratio_unknown"
+    },
+    {
+      "index": 6,
+      "name": "output_supported"
+    },
+    {
+      "index": 7,
+      "name": "output_contradicted"
+    },
+    {
+      "index": 8,
+      "name": "output_unknown"
+    },
+    {
+      "index": 9,
+      "name": "order_supported"
+    },
+    {
+      "index": 10,
+      "name": "order_contradicted"
+    },
+    {
+      "index": 11,
+      "name": "order_unknown"
+    },
+    {
+      "index": 12,
+      "name": "limit_supported"
+    },
+    {
+      "index": 13,
+      "name": "limit_contradicted"
+    },
+    {
+      "index": 14,
+      "name": "limit_unknown"
+    },
+    {
+      "index": 15,
+      "name": "filter_supported"
+    },
+    {
+      "index": 16,
+      "name": "filter_contradicted"
+    },
+    {
+      "index": 17,
+      "name": "filter_unknown"
+    },
+    {
+      "index": 18,
+      "name": "relation_supported"
+    },
+    {
+      "index": 19,
+      "name": "relation_contradicted"
+    },
+    {
+      "index": 20,
+      "name": "relation_unknown"
+    },
+    {
+      "index": 21,
+      "name": "reason_requirement_binding_unresolved"
+    },
+    {
+      "index": 22,
+      "name": "reason_output_lineage_unresolved"
+    },
+    {
+      "index": 23,
+      "name": "reason_repeated_table_role_unresolved"
+    },
+    {
+      "index": 24,
+      "name": "reason_answer_scope_or_boolean_entailment_unresolved"
+    },
+    {
+      "index": 25,
+      "name": "reason_relationship_path_unresolved"
+    },
+    {
+      "index": 26,
+      "name": "reason_explicit_order_missing"
+    },
+    {
+      "index": 27,
+      "name": "reason_order_key_or_direction_differs"
+    },
+    {
+      "index": 28,
+      "name": "reason_explicit_limit_missing"
+    },
+    {
+      "index": 29,
+      "name": "reason_limit_differs"
+    },
+    {
+      "index": 30,
+      "name": "reason_explicit_answer_filter_missing_or_differs"
+    },
+    {
+      "index": 31,
+      "name": "count_contract_missing"
+    },
+    {
+      "index": 32,
+      "name": "ratio_contract_missing"
+    },
+    {
+      "index": 33,
+      "name": "selection_contract_missing"
+    },
+    {
+      "index": 34,
+      "name": "predicate_contract_missing"
+    },
+    {
+      "index": 35,
+      "name": "output_columns_supported"
+    },
+    {
+      "index": 36,
+      "name": "output_columns_contradicted"
+    },
+    {
+      "index": 37,
+      "name": "output_columns_unknown"
+    },
+    {
+      "index": 38,
+      "name": "output_operators_supported"
+    },
+    {
+      "index": 39,
+      "name": "output_operators_contradicted"
+    },
+    {
+      "index": 40,
+      "name": "output_operators_unknown"
+    },
+    {
+      "index": 41,
+      "name": "count_target_supported"
+    },
+    {
+      "index": 42,
+      "name": "count_target_contradicted"
+    },
+    {
+      "index": 43,
+      "name": "count_target_unknown"
+    },
+    {
+      "index": 44,
+      "name": "count_distinct_supported"
+    },
+    {
+      "index": 45,
+      "name": "count_distinct_contradicted"
+    },
+    {
+      "index": 46,
+      "name": "count_distinct_unknown"
+    },
+    {
+      "index": 47,
+      "name": "grouping_grain_supported"
+    },
+    {
+      "index": 48,
+      "name": "grouping_grain_contradicted"
+    },
+    {
+      "index": 49,
+      "name": "grouping_grain_unknown"
+    },
+    {
+      "index": 50,
+      "name": "ratio_structure_supported"
+    },
+    {
+      "index": 51,
+      "name": "ratio_structure_contradicted"
+    },
+    {
+      "index": 52,
+      "name": "ratio_structure_unknown"
+    },
+    {
+      "index": 53,
+      "name": "ratio_numerator_filter_supported"
+    },
+    {
+      "index": 54,
+      "name": "ratio_numerator_filter_contradicted"
+    },
+    {
+      "index": 55,
+      "name": "ratio_numerator_filter_unknown"
+    },
+    {
+      "index": 56,
+      "name": "ratio_denominator_leakage_supported"
+    },
+    {
+      "index": 57,
+      "name": "ratio_denominator_leakage_contradicted"
+    },
+    {
+      "index": 58,
+      "name": "ratio_denominator_leakage_unknown"
+    },
+    {
+      "index": 59,
+      "name": "filter_column_supported"
+    },
+    {
+      "index": 60,
+      "name": "filter_column_contradicted"
+    },
+    {
+      "index": 61,
+      "name": "filter_column_unknown"
+    },
+    {
+      "index": 62,
+      "name": "filter_operator_supported"
+    },
+    {
+      "index": 63,
+      "name": "filter_operator_contradicted"
+    },
+    {
+      "index": 64,
+      "name": "filter_operator_unknown"
+    },
+    {
+      "index": 65,
+      "name": "filter_value_supported"
+    },
+    {
+      "index": 66,
+      "name": "filter_value_contradicted"
+    },
+    {
+      "index": 67,
+      "name": "filter_value_unknown"
+    },
+    {
+      "index": 68,
+      "name": "order_key_direction_supported"
+    },
+    {
+      "index": 69,
+      "name": "order_key_direction_contradicted"
+    },
+    {
+      "index": 70,
+      "name": "order_key_direction_unknown"
+    },
+    {
+      "index": 71,
+      "name": "row_limit_supported"
+    },
+    {
+      "index": 72,
+      "name": "row_limit_contradicted"
+    },
+    {
+      "index": 73,
+      "name": "row_limit_unknown"
+    },
+    {
+      "index": 74,
+      "name": "top1_single_order_key"
+    },
+    {
+      "index": 75,
+      "name": "output_distinct"
+    },
+    {
+      "index": 76,
+      "name": "has_join"
+    },
+    {
+      "index": 77,
+      "name": "count_distinct_over_join"
+    },
+    {
+      "index": 78,
+      "name": "ratio_integer_division_possible"
+    },
+    {
+      "index": 79,
+      "name": "peer_centered_output_columns_supported"
+    },
+    {
+      "index": 80,
+      "name": "peer_centered_output_columns_contradicted"
+    },
+    {
+      "index": 81,
+      "name": "peer_centered_output_operators_supported"
+    },
+    {
+      "index": 82,
+      "name": "peer_centered_output_operators_contradicted"
+    },
+    {
+      "index": 83,
+      "name": "peer_centered_count_target_supported"
+    },
+    {
+      "index": 84,
+      "name": "peer_centered_count_target_contradicted"
+    },
+    {
+      "index": 85,
+      "name": "peer_centered_count_distinct_supported"
+    },
+    {
+      "index": 86,
+      "name": "peer_centered_count_distinct_contradicted"
+    },
+    {
+      "index": 87,
+      "name": "peer_centered_grouping_grain_supported"
+    },
+    {
+      "index": 88,
+      "name": "peer_centered_grouping_grain_contradicted"
+    },
+    {
+      "index": 89,
+      "name": "peer_centered_ratio_structure_supported"
+    },
+    {
+      "index": 90,
+      "name": "peer_centered_ratio_structure_contradicted"
+    },
+    {
+      "index": 91,
+      "name": "peer_centered_ratio_numerator_filter_supported"
+    },
+    {
+      "index": 92,
+      "name": "peer_centered_ratio_numerator_filter_contradicted"
+    },
+    {
+      "index": 93,
+      "name": "peer_centered_ratio_denominator_leakage_supported"
+    },
+    {
+      "index": 94,
+      "name": "peer_centered_ratio_denominator_leakage_contradicted"
+    },
+    {
+      "index": 95,
+      "name": "peer_centered_filter_column_supported"
+    },
+    {
+      "index": 96,
+      "name": "peer_centered_filter_column_contradicted"
+    },
+    {
+      "index": 97,
+      "name": "peer_centered_filter_operator_supported"
+    },
+    {
+      "index": 98,
+      "name": "peer_centered_filter_operator_contradicted"
+    },
+    {
+      "index": 99,
+      "name": "peer_centered_filter_value_supported"
+    },
+    {
+      "index": 100,
+      "name": "peer_centered_filter_value_contradicted"
+    },
+    {
+      "index": 101,
+      "name": "peer_centered_order_key_direction_supported"
+    },
+    {
+      "index": 102,
+      "name": "peer_centered_order_key_direction_contradicted"
+    },
+    {
+      "index": 103,
+      "name": "peer_centered_row_limit_supported"
+    },
+    {
+      "index": 104,
+      "name": "peer_centered_row_limit_contradicted"
+    }
+  ],
+  "scope": "105 historical metrics; not 105 tree rules"
+}
